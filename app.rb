@@ -12,4 +12,6 @@ class App < Sinatra::Base
     "#{@squared_number}"
   end
 
+  
+
 end
