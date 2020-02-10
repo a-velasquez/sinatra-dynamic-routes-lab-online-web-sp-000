@@ -34,7 +34,6 @@ class App < Sinatra::Base
       "#{@number1+@number2}".to_s
     elsif params[:operation] == "subtract"
       "#{@number1-@number2}".to_s
-
     end
   end
 end
