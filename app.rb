@@ -31,7 +31,7 @@ class App < Sinatra::Base
     @number2   = params[:number2]
 
     if params[:operation] == "add"
-      "#{@number_1+@number_2}".to_s
+      "#{@number_1+@number_2}"
     end
   end
 end
